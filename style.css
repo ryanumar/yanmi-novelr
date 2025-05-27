@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(75, 80, 79);
+}
+
+.navbar-container {
+    background-color: hsl(40, 25%, 79%);
+    height: 10vh;
+    width: 100%;
+    border: 1px solid black;
+    position: fixed;
+}
+
+.yanmi-navbar {
+    position: fixed;
+    top: 0;
+    left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+
+/* position: fixed; */
+/* } */
+
+.novel-navbar {
+    position: fixed;
+    top: 35px;
+    left: 300px;
+    font-size: 30px; 
+}
+    /* yanmi */
+.y {
+    color: blueviolet;
+}
+
+.a {
+    color:  cyan;
+}
+
+.n {
+    color: white;
+}
+
+.m {
+    color: yellow;
+}
+
+.i {
+    color: red;
+}
+    /* yanmi end */
+    /* novel */
+.n2 {
+    color: blueviolet;
+}
+
+.o {
+    color: cyan;
+}
+
+.v {
+    color: white;
+}
+
+.e {
+    color: yellow;
+}
+
+.l {
+    color: red;
+}
+    /* novel */
+.button {
+    position: fixed;
+    top: 15px;
+    left: 1000px;
+    background-color: blueviolet;
+    color: black;
+    transition: .3s;
+    height: 40px;
+    width: 70px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-login {
+    color: white;
+    text-decoration: none;
+    font-size: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button-login:hover {
+    color: black;
+}
+
+.button:hover {
+    background-color: transparent;
+    transition: .3s;
+    color: black;
+}
+
+.navbar-container2 {
+    background-color: hsl(40, 25%, 79%);
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    top: 67px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.books {
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+
+.select {
+    background-color: hsl(40, 25%, 79%);
+    width: 70px;
+    position: relative;
+    left: 10px;
+    border: transparent;
+}
+
+.select2 {
+    background-color: hsl(40, 25%, 79%);
+    width: 90px;
+    position: relative;
+    left: 20px;
+    border: transparent;
+}
+
+option {
+    border: transparent
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.content-container {
+    background-color: transparent;
+}
+
+.img-content {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 70px;
+    left: 50px;
+    border-radius: 8px;
+}
+
+.button2 {
+    background-color: cyan;
+    color: black;
+    border-radius: 8px;
+    position: relative;
+    top: 80px;
+    left: 160px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button2:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+    transition: 0.5s;
+}
+
+.button-ryansumi {
+    text-decoration: none;
+    color: black;
+}
+
+.judul-ryansumi {
+    position: relative;
+    top: 65px;
+    left: 150px;
+    color: white;
+}

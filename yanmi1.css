@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar-container {
+    background-color: hsl(40, 25%, 79%);
+    height: 10vh;
+    width: 100%;
+    border: 1px solid black;
+    position: fixed;
+}
+
+.yanmi-navbar {
+    position: fixed;
+    top: 0;
+    left: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.novel-navbar {
+    position: fixed;
+    top: 35px;
+    left: 740px;
+    font-size: 30px;
+}
+    /* yanmi */
+.y {
+    color: blueviolet;
+}
+
+.a {
+    color:  cyan;
+}
+
+.n {
+    color: white;
+}
+
+.m {
+    color: yellow;
+}
+
+.i {
+    color: red;
+}
+    /* yanmi end */
+    /* novel */
+.n2 {
+    color: blueviolet;
+}
+
+.o {
+    color: cyan;
+}
+
+.v {
+    color: white;
+}
+
+.e {
+    color: yellow;
+}
+
+.l {
+    color: red;
+}
+    /* novel */
+.button {
+    position: fixed;
+    top: 15px;
+    left: 1000px;
+    background-color: blueviolet;
+    color: black;
+    height: 40px;
+    width: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navbar-container2 {
+    background-color: hsl(40, 25%, 79%);
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    top: 67px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.books {
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+
+.select {
+    background-color: hsl(40, 25%, 79%);
+    width: 70px;
+    position: relative;
+    left: 10px;
+    border: transparent;
+}
+
+.select2 {
+    background-color: hsl(40, 25%, 79%);
+    width: 90px;
+    position: relative;
+    left: 20px;
+    border: transparent;
+}
+
+option {
+    border: transparent
+}
+
+/* content */
+.judul-bab1 {
+    position: relative;
+    top: 200px;
+    left: 550px;
+}
+
+.intro {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.baris-pertama {
+    position: relative;
+    left: 30px;
+}
+
+.baris-kedua {
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+.baris-ketiga {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.baris-keempat {
+position: relative;
+top: 5px;
+}
+
+.baris-kelima {
+    position: relative;
+    top: 5px;
+}
+
+.baris-keenam {
+    position: relative;
+    top: 5px;
+}
+
+.content-intro2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 3px;
+}
+
+.baris1 {
+    position: relative;
+    top: 12px;
+}
+
+.baris2 {
+    position: relative;
+    top: 10px;
+}
+
+.baris3 {
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.baris4 {
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+.ending-intro {
+    position: relative;
+    top: 50px;
+    left: 630px;
+}
+
+.titik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.paragraph1 {
+    display: block;
+    width: 700px;
+    padding-left: 350px;
+    font-weight: 300px;
+}
+
+.p-1 {
+    font-weight: 300px;
+    height: 70px;
+    background-color: transparent;
+}
